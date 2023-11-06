@@ -25,7 +25,7 @@ const About = ()=>{
   {/* back to top end */}
   {/* header start */}
   {/* header start */}
-  <header>
+  {/* <header>
     <div
       id="header-sticky"
       className="header__area header__transparent header__white"
@@ -301,7 +301,7 @@ const About = ()=>{
         </div>
       </div>
     </div>
-  </header>
+  </header> */}
   {/* header end */}
   {/* side info start */}
   {/* mobile menu sidebar start */}

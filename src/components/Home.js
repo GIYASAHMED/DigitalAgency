@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Home = ()=>{
     return(
@@ -21,7 +22,7 @@ const Home = ()=>{
   {/* back to top end */}
   {/* header start */}
   {/* header start */}
-  <header>
+  {/* <header>
     <div id="header-sticky" className="header__area header__transparent">
       <div className="container">
         <div className="row align-items-center">
@@ -294,7 +295,7 @@ const Home = ()=>{
         </div>
       </div>
     </div>
-  </header>
+  </header> */}
   {/* header end */}
   {/* side info start */}
   {/* mobile menu sidebar start */}
@@ -322,18 +323,18 @@ const Home = ()=>{
               </li>
             </ul>
             <div className="sidebar__social">
-              <a href="#">
+              <Link href="#">
                 <i className="fab fa-facebook-f" />
-              </a>
-              <a href="#">
+              </Link>
+              <Link href="#">
                 <i className="fab fa-twitter" />
-              </a>
-              <a href="#">
+              </Link>
+              <Link href="#">
                 <i className="fab fa-instagram" />
-              </a>
-              <a href="#">
+              </Link>
+              <Link href="#">
                 <i className="fab fa-google" />
-              </a>
+              </Link>
             </div>
           </div>
         </div>

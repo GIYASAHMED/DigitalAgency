@@ -25,7 +25,7 @@ const Services = ()=>{
   {/* back to top end */}
   {/* header start */}
   {/* header start */}
-  <header>
+  {/* <header>
     <div
       id="header-sticky"
       className="header__area header__transparent header__white"
@@ -301,11 +301,11 @@ const Services = ()=>{
         </div>
       </div>
     </div>
-  </header>
+  </header> */}
   {/* header end */}
   {/* side info start */}
   {/* mobile menu sidebar start */}
-  <div className="fix">
+  {/* <div className="fix">
     <div className="side-info">
       <button className="side-info-close">
         <i className="fas fa-times" />
@@ -346,7 +346,7 @@ const Services = ()=>{
         </div>
       </div>
     </div>
-  </div>
+  </div> */}
   {/* side info end */}
   <div className="offcanvas-overlay" />
   {/* mobile menu sidebar end */}
@@ -1592,6 +1592,7 @@ const Services = ()=>{
   </footer>
   {/* footer area end */}
 </>
+
 
     )
 }
