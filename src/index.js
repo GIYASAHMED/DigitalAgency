@@ -7,6 +7,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import About from './components/Aboutus/About';
 import Home from './components/Home';
 import Services from './components/services/Service';
+import ServicesDetails from './components/services/ServicesDetails';
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
       {
         path: "services",
         element:<Services/>
+      },
+      {
+        path: "ServicesDetails",
+        element:<ServicesDetails/>
     }]
   }
 ])

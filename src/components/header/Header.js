@@ -22,7 +22,7 @@ const Header = () => {
                     </Link>
                     </div>
                 </div>
-                <div className="col-xxl-7 col-xl-6  d-xl-block">
+                <div className="col-xxl-7 col-xl-6 d-block d-xl-block">
                     <div className="main-menu text-end">
                     <nav id="mobile-menu">
                         <ul id="menu-main-menu" className="">
@@ -191,6 +191,8 @@ const Header = () => {
                                 className="menu-item menu-item-type-post_type menu-item-object-page menu-item-114 nav-items"
                             >
                                 <NavLink
+                                to="/Services"
+                                
                                 title="Services"
                                 href="https://thememaster.net/wp/maxdi/services/"
                                 className="dropdown-items"
@@ -205,6 +207,7 @@ const Header = () => {
                                 className="menu-item menu-item-type-post_type menu-item-object-alimasha-services menu-item-247 nav-items"
                             >
                                 <NavLink
+                                to="/ServicesDetails"
                                 title="Services Details"
                                 href="https://thememaster.net/wp/maxdi/ourservices/web-development/"
                                 className="dropdown-items"
